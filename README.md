@@ -1,7 +1,6 @@
 # Liquibase 3.5.0
 
 Liquibase image to build and run your change sets as docker images.
-It can also be used to generate change logs or do database diff using the `generate` or `diff` commands.
 
 ## Changelog Volume
 
