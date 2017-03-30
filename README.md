@@ -19,6 +19,13 @@ When using this image directly, you can mount `/your/path:/changelogs` to work o
 
 ## Examples
 
+### Creating a migration image
+
+```Dockerfile
+# The base image will automatically add your ./changelogs folder
+FROM ronalddddd/liquibase:postgres
+```
+
 ### Running the `generate` script
 
 ```
